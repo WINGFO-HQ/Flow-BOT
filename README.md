@@ -22,16 +22,18 @@ This project automates bandwidth sharing on Flow3 using Solana wallets. It provi
 
 ### Setup
 
-1. Clone the repository:
+1. Register [Flow](https://dashboard.flow3.tech?ref=nbeSzzCZo)
+
+2. Clone the repository:
    ```sh
    git clone https://github.com/WINGFO-HQ/Flow-BOT.git
    cd Flow-BOT
    ```
-2. Install dependencies:
+3. Install dependencies:
    ```sh
    npm install
    ```
-3. Configure environment settings:
+4. Configure environment settings:
    - Store your Solana private keys in `private.key` (one per line).
 
 ## Usage
