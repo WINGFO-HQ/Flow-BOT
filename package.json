@@ -1,0 +1,33 @@
+{
+  "name": "flow-bot",
+  "version": "1.0.0",
+  "description": "This project automates bandwidth sharing on Flow3 using Solana wallets. It provides a dashboard interface to monitor account statuses, token expirations, and earning points. The system is designed to run continuously, handling token refreshes and bandwidth sharing cycles automatically.",
+  "main": "main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WINGFO-HQ/Flow-BOT.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/WINGFO-HQ/Flow-BOT/issues"
+  },
+  "homepage": "https://github.com/WINGFO-HQ/Flow-BOT#readme",
+  "dependencies": {
+    "@solana/web3.js": "^1.98.0",
+    "axios": "^1.8.3",
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.11.0",
+    "bs58": "^5.0.0",
+    "fs": "^0.0.1-security",
+    "tweetnacl": "^1.0.3"
+  }
+}
